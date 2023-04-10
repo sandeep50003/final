@@ -1,0 +1,329 @@
+header {
+    background: #222;
+    padding: 15px;
+}
+#operation h3, #map h3, #contect-us h3 {
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.main-nav ul li:hover {
+    background: #c78b01;
+}
+.main-nav ul li:hover a {
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.side-logo {
+    background:#c78c06;
+}
+
+.side-logo img {
+    width: 100px;
+}
+.main-nav ul {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+.main-nav a {
+    color: #c78c06;
+    text-decoration: none;
+}
+li.active {
+    background: #c78c06;
+}
+.active a{
+    color:#222;
+}
+.main-nav li {
+    padding: 15px;
+}
+.search-bar input {
+    width: 95%;
+    font-size: 18px;
+    border-radius: 2px;
+    border: none;
+    padding: 7px;
+}
+.search-bar button {
+    background: transparent;
+    border: 1px solid #c78c06;
+}
+.search-bar img {
+    width: 23px;
+    padding: 5px 3px;
+}
+.search-bar form {
+    display: flex;
+}
+.banner-image {
+    background: url("https://images.unsplash.com/photo-1679215805552-e28a96550a23");
+    background-size: cover;
+    padding: 50px 0px;
+}
+.banner-image h1 {
+    font-size: 71px;
+    text-transform: capitalize;
+}
+.overlay {
+    background: #0000008c;
+    color: white;
+    padding: 20px;
+}
+
+.med-btn {
+    background: #c78c06;
+    color: #222;
+    font-size: 21px;
+    width: 185px;
+    padding: 27px 22px;
+    margin-top: 12px;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+#about-us {
+    background: #ffe6ac;
+    padding: 20px;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+p {
+    line-height: 21px;
+    font-size: 14px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+section#our-service {
+    padding: 20px;
+}
+.card {
+    background: #ffe6ac;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.card h3 {
+    font-size: 35px;
+    margin: 20px 20px 30px;
+}
+.card p {
+    margin: 0px 20px;
+}
+.full-btn {
+    background: #222;
+    color: white;
+    font-size: 20px;
+    padding: 23px;
+    margin: 20px 20px 0px;
+    width: fit-content;
+}
+#our-vision {
+    background: url(https://www.sbc.edu.sg/wp-content/uploads/elementor/thumbs/kobu-agency-kI1iR7l55FM-unsplash-oz61rtmgdvgtbbxp1w4c6bosevocvwctir92w7oqxk.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    color:white;
+}
+#our-vision h3 {
+    font-size: 35px;
+    margin: 20px 0px;
+}
+.mid-btn {
+    width: fit-content;
+    background: #172842;
+    color: white;
+    padding: 24px 26px;
+    margin-top: 15px;
+    border: 1px solid #c78c06;
+}
+#our-team {
+    padding: 20px;
+}
+p.position {
+    border-bottom: 2px solid #c78c06;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+#our-team h3 {
+    margin-bottom: 10px;
+}
+#contect-us {
+    padding: 0px 20px;
+}
+#contect-us form {
+    display: flex;
+    flex-direction: column;
+}
+section#contect-us label {
+    margin: 10px 0px 6px;
+}
+input[type="submit"] {
+    background: #222;
+    width: fit-content;
+    color: #c78c06;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin: 16px 0px;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid #222;
+    padding: 10px;
+}
+th{
+    background: #ffe6ac;
+}
+#operation {
+    padding: 20px;
+}
+footer {
+    background: #222;
+    padding: 20px;
+    color: #c78c06;
+}
+footer a {
+    text-decoration: underline;
+    color: #c78c06;
+}
+.map1{
+    display: none;
+}
+#map {
+    padding: 20px;
+}
+img.arrow {
+    width: 10px;
+    margin-left: 5px;
+    height: 13px !important;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* big screens */
+
+@media only screen and (min-width: 760px) {
+    .flex{
+        display: flex;
+    }
+    .width-50 {
+        width: 50%;
+    }
+    .col-50 {
+        width: 49%;
+    }
+    .col-33 {
+        width: 32.3%;
+    }
+    section#our-service .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .full-btn {
+        width: 93%;
+        text-align: center;
+        margin: 20px auto 0px;
+        padding: 20px 0px;
+    }
+    .col-33.card .full-btn {
+        text-transform: capitalize;
+        width: 90%;
+    }
+    section#our-service img {
+        height: 300px;
+        object-fit: cover;
+    }
+    section#our-service .flex {
+        gap: 1%;
+    }
+    .card {
+        margin-bottom: 13px;
+    }
+    .flex.reverse {
+        flex-direction: row-reverse;
+    }
+    
+   #our-team .card {
+        margin-bottom: 0px;
+        padding-bottom: 0PX;
+    }
+    section#map {
+        display: none;
+    }
+    .map1 {
+        display: block;
+    }
+    section#contect-us .flex, #about-us .flex {
+        gap: 10px;
+    }
+    .main-nav ul {
+        display: inline-flex;
+    }
+    div#header .flex {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-nav a {
+        font-size: 20px;
+    }
+    .main-nav li {
+        padding: 21px 43px;
+    }
+    header {
+        padding: 28px;
+    }
+    .banner-image h1 {
+        font-size: 81px;
+        text-transform: capitalize;
+        width: 90%;
+        line-height: 125px;
+    }
+    p{
+        font-size: 16px;
+    }
+    section#contect-us h3 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    section#about-us img {
+        height: 267px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    #operation h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #f-name, #email {
+        height: 31px;
+    }
+    table, th, td{
+        padding: 15px;
+    text-transform: capitalize;
+    }
+    footer .container {
+        display: grid;
+        gap: 20px;
+    }
+}
